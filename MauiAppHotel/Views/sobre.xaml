@@ -12,7 +12,7 @@
         <Label Text="SOBRE"
                FontFamily="PoiretOne"
                FontSize="40"
-               TextColor="LightCoral"/>
+               TextColor="Red"/>
         <Frame Padding="15">
                 <VerticalStackLayout>
                     <Label Text="Desenvolvimento: Raul Pedrogan"
@@ -27,7 +27,7 @@
                 </VerticalStackLayout>
         </Frame>
         <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="20" Margin="10">
-            <Button Text="Voltar" Clicked="Button_Clicked"/>
+            <Button Text="Voltar" Clicked="Button_Clicked" BackgroundColor="Red"/>
         </HorizontalStackLayout>
     </VerticalStackLayout>
 </ContentPage>
