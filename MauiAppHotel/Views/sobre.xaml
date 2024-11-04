@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiAppHotel.Views.sobre"
+             Title="sobre"
+             NavigationPage.HasNavigationBar="False"
+             BackgroundColor="{StaticResource Gray600}">
+    
+    <VerticalStackLayout VerticalOptions="CenterAndExpand"
+                         Padding="10"
+                         Margin="10">
+        <Label Text="SOBRE"
+               FontFamily="PoiretOne"
+               FontSize="40"
+               TextColor="LightCoral"/>
+        <Frame Padding="15">
+                <VerticalStackLayout>
+                    <Label Text="Desenvolvimento: Raul Pedrogan"
+                           FontFamily="PoiretOne"
+                           FontSize="20"
+                           TextColor="LightCoral"
+                           Margin="10"/>
+                    <Label Text="Bem-vindo ao Hotel Serenità! Localizado em uma região privilegiada, nosso hotel combina conforto e elegância para proporcionar uma experiência inesquecível. Com quartos bem equipados, serviço de quarto, Wi-Fi gratuito e um café da manhã completo, oferecemos tudo para que sua estadia seja relaxante e prática. Ideal para viagens a negócios ou lazer, o Hotel Serenità é o lugar perfeito para descansar e explorar a cidade."
+                           FontSize="10"
+                           LineBreakMode="WordWrap"
+                           HorizontalTextAlignment="Start"/>
+                </VerticalStackLayout>
+        </Frame>
+        <HorizontalStackLayout HorizontalOptions="CenterAndExpand" Spacing="20" Margin="10">
+            <Button Text="Voltar" Clicked="Button_Clicked"/>
+        </HorizontalStackLayout>
+    </VerticalStackLayout>
+</ContentPage>

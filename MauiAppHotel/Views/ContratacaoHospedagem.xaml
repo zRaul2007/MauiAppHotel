@@ -57,8 +57,10 @@
                         </HorizontalStackLayout>
                     </VerticalStackLayout>
                 </Frame>
-
-                <Button Text="Avançar"/>
+                <HorizontalStackLayout>
+                    <Button Text="Avançar" Margin="10"/>
+                    <Button Text="Sobre" Margin="10"/>
+                </HorizontalStackLayout>
 
             </VerticalStackLayout>
         </Frame>
