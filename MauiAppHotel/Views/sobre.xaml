@@ -13,14 +13,22 @@
                FontFamily="PoiretOne"
                FontSize="40"
                TextColor="Red"/>
+        
+        <Image Source="fotodev.png"
+               WidthRequest="100"
+               HeightRequest="100"
+               Aspect="AspectFill"
+               Clip="EllipseGeometry Center,100,50,50"/>
+        
         <Frame Padding="15">
                 <VerticalStackLayout>
-                    <Label Text="Desenvolvimento: Raul Pedrogan"
+                <Label Text="Desenvolvimento: Raul Pedrogan"
                            FontFamily="PoiretOne"
                            FontSize="20"
                            TextColor="LightCoral"
                            Margin="10"/>
-                    <Label Text="Bem-vindo ao Hotel Serenità! Localizado em uma região privilegiada, nosso hotel combina conforto e elegância para proporcionar uma experiência inesquecível. Com quartos bem equipados, serviço de quarto, Wi-Fi gratuito e um café da manhã completo, oferecemos tudo para que sua estadia seja relaxante e prática. Ideal para viagens a negócios ou lazer, o Hotel Serenità é o lugar perfeito para descansar e explorar a cidade."
+
+                <Label Text="Bem-vindo ao Hotel Serenità! Localizado em uma região privilegiada, nosso hotel combina conforto e elegância para proporcionar uma experiência inesquecível. Com quartos bem equipados, serviço de quarto, Wi-Fi gratuito e um café da manhã completo, oferecemos tudo para que sua estadia seja relaxante e prática. Ideal para viagens a negócios ou lazer, o Hotel Serenità é o lugar perfeito para descansar e explorar a cidade."
                            FontSize="10"
                            LineBreakMode="WordWrap"
                            HorizontalTextAlignment="Start"/>
