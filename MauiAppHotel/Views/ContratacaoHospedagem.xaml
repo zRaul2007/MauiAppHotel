@@ -29,9 +29,9 @@
                     <Label Grid.Row="1" Grid.Column="0" Text="Crianças:"/>
 
                     <Label Grid.Row="1" Grid.Column="1" TextColor="DarkRed" Text="{Binding Value}"
-                           BindingContext="{x:Reference stp_crianca}"/>
+                           BindingContext="{x:Reference stp_criancas}"/>
 
-                    <Stepper Grid.Row="1" Grid.Column="2" x:Name="stp_crianca"
+                    <Stepper Grid.Row="1" Grid.Column="2" x:Name="stp_criancas"
                              Minimum="0" Maximum="10" Increment="1"/>
 
                 </Grid>
